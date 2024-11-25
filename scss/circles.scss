@@ -1,0 +1,26 @@
+.main-circle {
+  background: #ffd966;
+  color: #000;
+  border-radius: 50%;
+  padding: 40px;
+  width: 350px;
+  height: 350px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.secondary-circle {
+  position: absolute;
+  top: -60px;
+  right: -50px;
+  background: #ffc8c8;
+  border-radius: 50%;
+  padding: 20px;
+  width: 150px;
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
