@@ -588,9 +588,11 @@ body.create-recipe-page {
 }
 
 .recipe-ingredients {
+  margin: auto;
 }
 
 .recipe-instructions {
+  margin: auto;
 }
 
 .recipe-description h3 {
