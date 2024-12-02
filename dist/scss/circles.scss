@@ -1,0 +1,70 @@
+/* circles */
+
+.main-circle {
+  background: #ffd966;
+  color: #000;
+  border-radius: 50%;
+  padding: 40px;
+  width: 400px;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  z-index: 2;
+  box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.3);
+}
+
+.main-circle h1 {
+  font-family: "Caveat-Regular";
+  font-size: 40px;
+  font-weight: 400;
+  text-align: center;
+  margin-bottom: 10px;
+  padding-bottom: 30px;
+  width: 290px;
+  height: auto;
+}
+
+.main-circle p {
+  font-family: "Lato-Regular";
+  font-size: 17px;
+  font-weight: 20;
+  text-align: center;
+  margin: 0 auto;
+  width: 200px;
+  height: auto;
+  word-wrap: break-word;
+  line-height: 1.25;
+  word-spacing: 4px;
+}
+
+.secondary-circle {
+  position: absolute;
+  top: -90px;
+  right: -100px;
+  background: #fcbcb8;
+  border-radius: 50%;
+  padding: 20px;
+  width: 200px;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Lato-Italic";
+  font-size: 15px;
+  font-weight: 100;
+  margin: 0 25px;
+  text-decoration: none;
+  z-index: 1;
+  box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.3);
+}
+
+.secondary-circle p {
+  width: 140px;
+  height: auto;
+  word-wrap: break-word;
+  line-height: 1;
+  word-spacing: 2px;
+}

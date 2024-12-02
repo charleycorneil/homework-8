@@ -1,0 +1,272 @@
+/* recipe section */
+
+body.recipes-page {
+  background: url("../css/images/recipe-hero.jpg") no-repeat center center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.recipes-section {
+  padding: 40px 60px;
+  text-align: left;
+  max-width: 100%;
+}
+
+.recipes-section h1 {
+  font-family: "Caveat-Regular";
+  font-size: 40px;
+  font-weight: 10;
+  text-align: left;
+  padding-left: 170px;
+}
+
+.recipe-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(525px, 1fr));
+  gap: 20px;
+  padding: 40px 60px;
+  justify-content: center;
+}
+
+.recipe-card {
+  width: 560px;
+  height: 350px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+
+.recipe-card img {
+  width: 350px;
+  height: 350px;
+  object-fit: cover;
+}
+
+.card-content {
+  font-family: "Lato-Regular";
+  width: 225px;
+  height: 250px;
+  padding: 15px; /* Padding inside the content box */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.card-content h2 {
+  font-family: "Lato-regular";
+  font-size: 20px;
+  font-weight: 200;
+  margin-bottom: 10px;
+}
+
+.card-content p {
+  font-family: "Lato-Regular";
+  font-size: 14px;
+  color: #555;
+  overflow: hidden;
+  margin: 0 0 10px;
+  text-overflow: ellipsis;
+  line-height: 1.4;
+}
+
+.recipe-details {
+  display: flex;
+  justify-content: space-between;
+  font-size: 17px;
+}
+
+.recipe-details span {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  font-family: "Lato-Regular";
+  font-size: 14px;
+}
+
+.recipe-details img {
+  width: 20px;
+  height: 20px;
+}
+
+.recipes-page {
+  display: flex;
+  flex-direction: column;
+  background: url("images/recipe-hero.jpg") no-repeat center center;
+  background-size: cover;
+  min-height: 120vh;
+}
+
+.browse-overlay {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(167, 232, 189, 0.7);
+  height: 100px;
+}
+
+.page-container {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+main {
+  flex: 1;
+}
+
+body.recipes-page {
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+}
+
+.recipe-actions {
+  display: flex;
+  justify-content: flex-start; /* Align buttons to the left */
+  gap: 15px;
+  margin: 15px 0;
+}
+
+.recipe-actions button {
+  background: #ffd972;
+  color: black;
+  font-family: "Caveat-Regular";
+  font-size: 16px;
+  border: none;
+  border-radius: 20px;
+  padding: 10px 15px;
+  cursor: pointer;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+  transition: all 0.3s ease;
+}
+
+.recipe-actions button:hover {
+  background: #ffcc4d;
+  transform: translateY(-2px);
+  box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
+}
+
+.recipes-section h1 {
+  font-family: "Caveat-Regular";
+  font-size: 40px;
+  font-weight: 400;
+  text-align: left;
+  margin-bottom: 30px;
+  padding-left: 20px;
+  color: #243c5a;
+}
+
+body.create-recipe-page {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: white;
+  color: black;
+}
+
+.recipe-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 40px;
+}
+
+.recipe-logo img {
+  width: 160px;
+  height: auto;
+}
+
+.recipe-nav a {
+  font-family: "Caveat-Regular";
+  font-size: 30px;
+  font-weight: 400;
+  margin: 0 15px;
+  text-decoration: none;
+  color: black;
+}
+
+.recipe-nav .active-link {
+  text-decoration: underline;
+}
+
+.recipe-detail {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 40px 20px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+}
+
+.recipe-image {
+  width: 300px;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 10px 0 0 10px;
+}
+
+.recipe-image img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.vertical-title {
+  position: absolute;
+  left: -40px;
+  top: 50%;
+  transform: rotate(-90deg);
+  font-family: "Caveat-Regular";
+  font-size: 24px;
+  color: #243c5a;
+}
+
+.recipe-description,
+.recipe-ingredients,
+.recipe-instructions {
+  grid-column: span 2;
+  margin-bottom: 20px;
+}
+
+.recipe-description h3,
+.recipe-ingredients h3,
+.recipe-instructions h3 {
+  font-family: "Caveat-Regular";
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.recipe-ingredients ul,
+.recipe-instructions ol {
+  margin: 0;
+  padding-left: 20px;
+  list-style: none;
+}
+
+.recipe-ingredients ul li,
+.recipe-instructions ol li {
+  font-family: "Lato-Regular";
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.edit-btn {
+  display: block;
+  margin: 20px 0 0 auto;
+  background: #ffd972;
+  color: black;
+  font-family: "Caveat-Regular";
+  font-size: 18px;
+  padding: 10px 20px;
+  border-radius: 20px;
+  border: none;
+  cursor: pointer;
+  box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.3);
+}
+
+.edit-btn:hover {
+  background: #ffcc4d;
+}

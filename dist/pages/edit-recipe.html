@@ -4,48 +4,56 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>The Junle Cook</title>
-    <link rel="stylesheet" href="css/styles.css" />
+    <title>The Jungle Cook</title>
+    <link rel="stylesheet" href="../css/styles.css" />
   </head>
   <body class="create-recipes-page">
     <div class="page-container">
         <header>
             <div class="logo">
-              <img src="/dist/css/images/logo.png" alt="The Jungle Cook" />
+              <img src="../css/images/logo.png" alt="The Jungle Cook" />
             </div>
             <nav>
-              <a href="index.html">Home</a>
-  <a href="recipes.html">Browse</a>
-  <a href="create-recipe.html">Create Recipe</a>
-  <a href="your-recipe.html" class="active">Your Recipes</a>
-  <a href="logout.html" class="btn-logout">Logout</a>
+              <a href="/index.html">Home</a>
+              <a href="recipes.html">Browse</a>
+              <a href="create-recipe.html">Create Recipe</a>
+              <a href="your-recipe.html" class="active">Your Recipes</a>
+              <a href="logout.html" class="btn-logout">Logout</a>
             </nav>
           </header>
+          
            <main class="recipe-main">
-      <h1 class="recipe-title">Hey Michael, create your recipe!</h1>
+      <h1 class="recipe-title">Hey Michael, edit your recipe!</h1>
       <form class="recipe-form">
-        <!-- Recipe Image Upload -->
-        <div class="form-group image-upload">
-          <label for="recipe-image" class="form-label">Add Recipe Image</label>
-          <input type="file" id="recipe-image" class="file-input" />
-          <button type="button" class="file-btn">Attach File</button>
-        </div>
 
+        <div class="form-group input-with-btn">
+          <button type="button" class="file-btn">Attach File</button>
+          <input
+            type="text"
+            id="recipe-name"
+            class="form-input"
+            placeholder="Edit Recipe Image"
+          />
+        </div>
+        
+        
         <!-- Recipe Details -->
         <div class="form-group">
           <input
             type="text"
             id="recipe-name"
             class="form-input"
-            placeholder="Recipe Name"
-          />
+            placeholder="Supreme Pizza"
+          /> 
         </div>
+        
+        
         <div class="form-group">
           <input
             type="text"
             id="recipe-description"
             class="form-input"
-            placeholder="Recipe Description"
+            placeholder="Make pizza night super duper"
           />
         </div>
         <div class="form-group">
@@ -53,7 +61,7 @@
             type="text"
             id="recipe-time"
             class="form-input"
-            placeholder="Recipe Total Time"
+            placeholder="1h 24 min"
           />
         </div>
         <div class="form-group">
@@ -61,7 +69,7 @@
             type="text"
             id="recipe-servings"
             class="form-input"
-            placeholder="Recipe Serving Size"
+            placeholder="4 servings"
           />
         </div>
 
@@ -84,13 +92,13 @@
           />
         </div>
         <div class="form-group with-btn">
+          <button type="button" class="add-btn">+</button>
           <input
             type="text"
             id="ingredient-3"
             class="form-input"
             placeholder="Ingredient #3"
           />
-          <button type="button" class="add-btn">+</button>
         </div>
 
         <!-- Instructions Section -->
@@ -112,17 +120,17 @@
           />
         </div>
         <div class="form-group with-btn">
+          <button type="button" class="add-btn">+</button>
           <input
             type="text"
             id="instruction-3"
             class="form-input"
             placeholder="Instruction #3"
           />
-          <button type="button" class="add-btn">+</button>
         </div>
 
         <!-- Submit Button -->
-        <button type="submit" class="submit-btn">Create Recipe</button>
+        <button type="submit" class="submit-btn">Submit Changes</button>
       </form>
     </main>
           <footer>
@@ -141,10 +149,10 @@
             <div class="footer-right">
               <div class="social-links">
                 <a href="#"
-                  ><img src="/dist/css/images/facebook.png" alt="Facebook"
+                  ><img src="../css/images/facebook.png" alt="Facebook"
                 /></a>
                 <a href="#"
-                  ><img src="/dist/css/images/instagram.png" alt="Instagram"
+                  ><img src="../css/images/instagram.png" alt="Instagram"
                 /></a>
               </div>
             </div>
