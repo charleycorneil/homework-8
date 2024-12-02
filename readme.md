@@ -1,6 +1,6 @@
-Web4:
+Web4: https://in-info-web4.luddy.indianapolis.iu.edu/~chelcorn/homework%208/
 
-Github:https://github.com/charleycorneil/homework-8
+Github: https://github.com/charleycorneil/homework-8
 
 ### Homepage
 
